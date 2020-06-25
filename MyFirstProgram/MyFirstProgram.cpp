@@ -1,20 +1,16 @@
-// MyFirstProgram.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
+// MyFirstProgram.cpp : My first ever C++ program!
 
 #include <iostream>
+using namespace std;
 
-int main()
-{
-    std::cout << "Hello World!\n";
+// This is a comment
+int main() {
+	/*
+	This comment is very long.
+	So I put it in two lines
+	*/
+	cout << "Hello World!\n";
+	cout << "I am learning C++" << endl;
+	cout << "This line was broken by an end1 manipulator!";
+	return 0; // This comment is in a weird place :)
 }
-
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
