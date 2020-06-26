@@ -8,7 +8,7 @@ const int myInt2 = 4;
 
 // Variable declaration
 int myNum;
-double myDouble = 0.1, sum;
+double my_double = 0.1, sum;
 
 int main()
 {
@@ -16,11 +16,11 @@ int main()
 	myNum = 1;
 	cout << "It is now: " << myNum << endl;
 
-	cout << "My double was: " << myDouble << endl;;
-	myDouble = 1.1;
-	cout << "It is now: " << myDouble << endl;
+	cout << "My double was: " << my_double << endl;;
+	my_double = 1.1;
+	cout << "It is now: " << my_double << endl;
 
-	sum = myDouble + myNum;
+	sum = my_double + myNum;
 	cout << "When you add my num and my double together...\n";
 	cout << "You get " << sum;
 
